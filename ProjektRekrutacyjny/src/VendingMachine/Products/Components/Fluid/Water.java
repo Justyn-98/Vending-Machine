@@ -6,9 +6,28 @@ public class Water extends FluidComponent {
         super(volumeInMilliliters);
     }
 
+    private Water() {
+
+    }
+
     @Override
-    public FluidComponent takeSomeComponent(double takenVolumeInMilliliters) {
-        this.volumeInMilliliters -= takenVolumeInMilliliters;
-        return new Water(takenVolumeInMilliliters);
+    public Water takeSomeComponent(double componentQuantity) {
+        this.volumeInMilliliters -= componentQuantity;
+        return new Water(componentQuantity);
+    }
+
+    @Override
+    public void addSomeComponent(FluidComponent componentQuantity) {
+        if (componentQuantity instanceof Water)
+            this.volumeInMilliliters = this.getQuantityOfComponent() + componentQuantity.getQuantityOfComponent();
+    }
+
+    public static Water getInstance() {
+        return new Water();
+    }
+
+    @Override
+    public String getComponentType() {
+        return this.getClass().getTypeName();
     }
 }

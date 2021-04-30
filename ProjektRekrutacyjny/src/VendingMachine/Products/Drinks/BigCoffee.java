@@ -16,4 +16,11 @@ public class BigCoffee extends Drink {
         this.powderyComponents.add(powderyLooseCoffee);
     }
 
+    private BigCoffee() {
+
+    }
+
+    public static BigCoffee getInstance(){
+        return new BigCoffee();
+    }
 }

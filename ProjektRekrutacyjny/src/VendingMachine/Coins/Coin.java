@@ -1,9 +1,13 @@
 package VendingMachine.Coins;
 
 public abstract class Coin {
-    double value;
+    Double value;
 
-    public double getValue() {
+    public Coin(Double value) {
+        this.value = value;
+    }
+
+    public Double getValue() {
         return value;
     }
 }

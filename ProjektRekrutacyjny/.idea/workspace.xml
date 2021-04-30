@@ -1,7 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47ed2eef-e717-472f-8527-8470f323acf1" name="Default Changelist" comment="" />
+    <list default="true" id="47ed2eef-e717-472f-8527-8470f323acf1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/Desktop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/Repozytorium.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VendingMachine/Coins/PLN_CoinDenomination.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VendingMachine/Coins/PlnCoinsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VendingMachine/MoneyService/CoinIsNotPLNCoin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VendingMachine/MoneyService/MoneyManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VendingMachine/MoneyService/MoneyStorageChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VendingMachine/MoneyService/NoMoreMoneyInStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VendingMachine/ProductManagers/ProductCreator/ComponentStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VendingMachine/ProductManagers/ProductCreator/ComponentStorageAggregate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VendingMachine/ProductManagers/ProductCreator/ProductManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VendingMachine/ProductManagers/ProductCreator/SugarManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VendingMachine/ProductManagers/ProductsAvailabilityManager/ComponentsAvailabilityChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VendingMachine/ProductManagers/ProductsAvailabilityManager/ProductAvailabilityManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VendingMachine/ProductManagers/ProductsAvailabilityManager/ProductsAvailabilitySetter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VendingMachine/Products/Components/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VendingMachine/User/ExampleUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VendingMachine/User/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VendingMachine/UserInterfacePackage/Display/Display.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VendingMachine/UserInterfacePackage/Display/DisplayMessages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VendingMachine/UserInterfacePackage/Keyboard/InvalidUserInputException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VendingMachine/UserInterfacePackage/Keyboard/Keyboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VendingMachine/UserInterfacePackage/Keyboard/KeyboardDecoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VendingMachine/UserInterfacePackage/UserInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjektRekrutacyjny.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ProjektRekrutacyjny.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjektRekrutacyjny/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjektRekrutacyjny/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjektRekrutacyjny/VendingMachine/AdditionalProductService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjektRekrutacyjny/VendingMachine/Coins/Coin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjektRekrutacyjny/VendingMachine/Coins/Coin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjektRekrutacyjny/VendingMachine/Coins/FivePLN.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjektRekrutacyjny/VendingMachine/Coins/HalfPLN.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjektRekrutacyjny/VendingMachine/Coins/OneFifthPLN.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjektRekrutacyjny/VendingMachine/Coins/OnePLN.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjektRekrutacyjny/VendingMachine/Coins/OneTenthPLN.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjektRekrutacyjny/VendingMachine/Coins/PLNCoin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjektRekrutacyjny/VendingMachine/Coins/TwoPLN.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjektRekrutacyjny/VendingMachine/KeyboardDecoder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjektRekrutacyjny/VendingMachine/MachineDisplay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjektRekrutacyjny/VendingMachine/MachineKeyboard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjektRekrutacyjny/VendingMachine/MoneyService/MoneyOutException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjektRekrutacyjny/VendingMachine/MoneyService/MoneyService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjektRekrutacyjny/VendingMachine/MoneyService/MoneyStorage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjektRekrutacyjny/VendingMachine/MoneyService/MoneyStorage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjektRekrutacyjny/VendingMachine/NotSuccessfulPurchase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjektRekrutacyjny/VendingMachine/ProductCreator/ComponentSoldOut.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjektRekrutacyjny/VendingMachine/ProductCreator/ComponentStorage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjektRekrutacyjny/VendingMachine/ProductCreator/ProductCreator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjektRekrutacyjny/VendingMachine/ProductCreator/ProductRecipe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjektRekrutacyjny/VendingMachine/Products/Components/Fluid/FluidComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjektRekrutacyjny/VendingMachine/Products/Components/Fluid/FluidComponent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjektRekrutacyjny/VendingMachine/Products/Components/Fluid/Milk.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjektRekrutacyjny/VendingMachine/Products/Components/Fluid/Milk.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjektRekrutacyjny/VendingMachine/Products/Components/Fluid/Water.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjektRekrutacyjny/VendingMachine/Products/Components/Fluid/Water.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjektRekrutacyjny/VendingMachine/Products/Components/Others/BigCup.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjektRekrutacyjny/VendingMachine/Products/Components/Others/BigCup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjektRekrutacyjny/VendingMachine/Products/Components/Others/Cup.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjektRekrutacyjny/VendingMachine/Products/Components/Others/Cup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjektRekrutacyjny/VendingMachine/Products/Components/Others/SmallCup.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjektRekrutacyjny/VendingMachine/Products/Components/Others/SmallCup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjektRekrutacyjny/VendingMachine/Products/Components/Powdery/Cocoa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjektRekrutacyjny/VendingMachine/Products/Components/Powdery/Cocoa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjektRekrutacyjny/VendingMachine/Products/Components/Powdery/CoffeeBeans.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjektRekrutacyjny/VendingMachine/Products/Components/Powdery/CoffeeBeans.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjektRekrutacyjny/VendingMachine/Products/Components/Powdery/PowderyComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjektRekrutacyjny/VendingMachine/Products/Components/Powdery/PowderyComponent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjektRekrutacyjny/VendingMachine/Products/Components/Powdery/Sugar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjektRekrutacyjny/VendingMachine/Products/Components/Powdery/Sugar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjektRekrutacyjny/VendingMachine/Products/Drinks/BigCoffee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjektRekrutacyjny/VendingMachine/Products/Drinks/BigCoffee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjektRekrutacyjny/VendingMachine/Products/Drinks/BigHotChocolate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjektRekrutacyjny/VendingMachine/Products/Drinks/BigHotChocolate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjektRekrutacyjny/VendingMachine/Products/Drinks/BigMilkCoffee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjektRekrutacyjny/VendingMachine/Products/Drinks/BigMilkCoffee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjektRekrutacyjny/VendingMachine/Products/Drinks/Drink.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjektRekrutacyjny/VendingMachine/Products/Drinks/Drink.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjektRekrutacyjny/VendingMachine/Products/Drinks/SmallCoffee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjektRekrutacyjny/VendingMachine/Products/Drinks/SmallCoffee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjektRekrutacyjny/VendingMachine/Products/Drinks/SmallHotChocolate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjektRekrutacyjny/VendingMachine/Products/Drinks/SmallHotChocolate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjektRekrutacyjny/VendingMachine/Products/Drinks/SmallMilkCoffee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjektRekrutacyjny/VendingMachine/Products/Drinks/SmallMilkCoffee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjektRekrutacyjny/VendingMachine/Products/ProductList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjektRekrutacyjny/VendingMachine/Products/ProductList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjektRekrutacyjny/VendingMachine/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjektRekrutacyjny/VendingMachine/VendingMachine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjektRekrutacyjny/VendingMachine/VendingMachine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VendingMachine/AdditionalProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VendingMachine/Coins/Coin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VendingMachine/Coins/Coin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VendingMachine/Coins/FivePLN.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VendingMachine/Coins/HalfPLN.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VendingMachine/Coins/OneFifthPLN.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VendingMachine/Coins/OnePLN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VendingMachine/Coins/Euro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VendingMachine/Coins/OneTenthPLN.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VendingMachine/Coins/PLNCoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VendingMachine/Coins/PLN_Coin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VendingMachine/Coins/TwoPLN.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VendingMachine/KeyboardDecoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VendingMachine/MachineDisplay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VendingMachine/MachineKeyboard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VendingMachine/MoneyService/MoneyOutException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VendingMachine/MoneyService/MoneyService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VendingMachine/MoneyService/MoneyStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VendingMachine/MoneyService/MoneyStorage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VendingMachine/NotSuccessfulPurchase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VendingMachine/ProductCreator/ComponentSoldOut.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VendingMachine/ProductCreator/ComponentStorage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VendingMachine/ProductCreator/ProductCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VendingMachine/ProductManagers/ProductCreator/ProductCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VendingMachine/ProductCreator/ProductRecipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VendingMachine/ProductManagers/ProductCreator/ProductRecipe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VendingMachine/Products/Components/Fluid/FluidComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VendingMachine/Products/Components/Fluid/FluidComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VendingMachine/Products/Components/Fluid/Milk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VendingMachine/Products/Components/Fluid/Milk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VendingMachine/Products/Components/Fluid/Water.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VendingMachine/Products/Components/Fluid/Water.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VendingMachine/Products/Components/Others/BigCup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VendingMachine/Products/Components/Others/BigCup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VendingMachine/Products/Components/Others/Cup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VendingMachine/Products/Components/Others/Cup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VendingMachine/Products/Components/Others/SmallCup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VendingMachine/Products/Components/Others/SmallCup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VendingMachine/Products/Components/Powdery/Cocoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VendingMachine/Products/Components/Powdery/Cocoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VendingMachine/Products/Components/Powdery/CoffeeBeans.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VendingMachine/Products/Components/Powdery/CoffeeBeans.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VendingMachine/Products/Components/Powdery/PowderyComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VendingMachine/Products/Components/Powdery/PowderyComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VendingMachine/Products/Components/Powdery/Sugar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VendingMachine/Products/Components/Powdery/Sugar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VendingMachine/Products/Drinks/BigCoffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VendingMachine/Products/Drinks/BigCoffee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VendingMachine/Products/Drinks/BigHotChocolate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VendingMachine/Products/Drinks/BigHotChocolate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VendingMachine/Products/Drinks/BigMilkCoffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VendingMachine/Products/Drinks/BigMilkCoffee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VendingMachine/Products/Drinks/Drink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VendingMachine/Products/Drinks/Drink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VendingMachine/Products/Drinks/SmallCoffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VendingMachine/Products/Drinks/SmallCoffee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VendingMachine/Products/Drinks/SmallHotChocolate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VendingMachine/Products/Drinks/SmallHotChocolate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VendingMachine/Products/Drinks/SmallMilkCoffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VendingMachine/Products/Drinks/SmallMilkCoffee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VendingMachine/Products/ProductList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VendingMachine/Products/ProductList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VendingMachine/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VendingMachine/VendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VendingMachine/VendingMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../README.txt" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,10 +131,22 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1UDK3Ir1POJXcwjLnIZtgmuDVLx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.applicationServers" />
   </component>
   <component name="RecentsManager">
@@ -28,9 +154,11 @@
       <recent name="VendingMachine.Products.Drinks" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="VendingMachine.MoneyService" />
+      <recent name="VendingMachine.Products.Drinks" />
+      <recent name="VendingMachine.ProductServices" />
       <recent name="VendingMachine" />
-      <recent name="" />
-      <recent name="VendingMachine.ProductService" />
+      <recent name="VendingMachine.UserInterfacePackage.Keyboard" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -77,10 +205,53 @@
       <workItem from="1576246453817" duration="623000" />
       <workItem from="1576255955691" duration="1618000" />
       <workItem from="1576261762397" duration="10252000" />
+      <workItem from="1576497733513" duration="5291000" />
+      <workItem from="1576683253668" duration="6636000" />
+      <workItem from="1576777747090" duration="12987000" />
+      <workItem from="1576828069131" duration="8283000" />
+      <workItem from="1576858210562" duration="5598000" />
+      <workItem from="1576957488635" duration="1772000" />
+      <workItem from="1577043756078" duration="9999000" />
+      <workItem from="1577094551208" duration="14164000" />
+      <workItem from="1577215957759" duration="9000" />
+      <workItem from="1577373468176" duration="30353000" />
+      <workItem from="1577569248431" duration="5726000" />
+      <workItem from="1577583375169" duration="2707000" />
+      <workItem from="1577586216895" duration="166000" />
+      <workItem from="1577646442578" duration="22278000" />
+      <workItem from="1577761860082" duration="1503000" />
+      <workItem from="1577863114479" duration="33294000" />
+      <workItem from="1578044057358" duration="7213000" />
+      <workItem from="1578247590258" duration="600000" />
+      <workItem from="1578339266808" duration="7460000" />
+      <workItem from="1578377538818" duration="602000" />
+      <workItem from="1578420221261" duration="11143000" />
+      <workItem from="1578474674238" duration="1444000" />
+      <workItem from="1578476237722" duration="11000" />
+      <workItem from="1578515437376" duration="135000" />
+      <workItem from="1582224387130" duration="253000" />
+      <workItem from="1582380583857" duration="934000" />
+      <workItem from="1585130362715" duration="191000" />
+      <workItem from="1585727414073" duration="16000" />
+      <workItem from="1585740823645" duration="41000" />
+      <workItem from="1595268281445" duration="38000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

@@ -15,4 +15,12 @@ public class SmallHotChocolate extends Drink {
         this.fluidComponents.add(milk);
         this.powderyComponents.add(cocoa);
     }
+
+    private SmallHotChocolate() {
+
+    }
+
+    public static SmallHotChocolate getInstance(){
+        return new SmallHotChocolate();
+    }
 }

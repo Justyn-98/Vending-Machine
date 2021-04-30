@@ -1,16 +1,24 @@
 package VendingMachine.Products.Components.Fluid;
 
-public abstract class FluidComponent {
+import VendingMachine.Products.Components.Component;
 
-    double volumeInMilliliters ;
+public abstract class FluidComponent implements Component {
+
+    double volumeInMilliliters;
 
     FluidComponent(double volumeInMilliliters) {
         this.volumeInMilliliters = volumeInMilliliters;
     }
 
-    public abstract FluidComponent takeSomeComponent(double takenVolumeInMilliliters);
+    FluidComponent() {
+    }
 
-    public double getVolumeInMilliliters() {
+    public abstract FluidComponent takeSomeComponent(double componentQuantity);
+
+    public abstract void addSomeComponent(FluidComponent componentQuantity);
+
+    public double getQuantityOfComponent() {
         return volumeInMilliliters;
     }
+
 }
